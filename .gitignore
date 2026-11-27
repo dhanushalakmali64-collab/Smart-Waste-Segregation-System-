@@ -1,0 +1,12 @@
+# secrets: never commit Wi-Fi password / API key
+firmware/include/secrets.h
+
+# PlatformIO build output
+firmware/.pio/
+firmware/.vscode/
+
+# server
+server/debug/
+__pycache__/
+*.pyc
+.venv/

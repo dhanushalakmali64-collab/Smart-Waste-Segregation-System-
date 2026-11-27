@@ -1,0 +1,9 @@
+Copy your trained model into this folder with this name:
+
+  smartbin_yolo11n_320.pt
+
+e.g.
+  cp ~/Desktop/smartbin/smartbin_yolo11n_320.pt ./
+
+A different name works too: start the server with
+  SMARTBIN_MODEL=models/your_name.pt ./run_server.sh
